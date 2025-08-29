@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Divya S Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Divya S</h1>
+    <button id="menu-btn" aria-label="Toggle Menu">☰</button>
+    <nav id="nav-menu">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#conference">Conference</a>
+      <a href="#certificate">Certificate</a>
+      <a href="#skills">Skills</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hi, I'm Divya S, passionate about technology and continuous learning.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a software enthusiast with a background in web development and design.</p>
+    </section>
+
+    <section id="conference">
+      <h2>Conference</h2>
+      <ul>
+        <li>A National  Conference of Artifical Intellgence</li>
+        <li>A national quiz competition</li>
+      </ul>
+    </section>
+
+    <section id="certificate">
+      <h2>Certificate</h2>
+      <ul>
+        <li>Colud computing _IBM skillbuild</li>
+        <li>Web develpoment-IBM skillbuild</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+    </section>
+
+    <section id="contacts">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="form-message"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
